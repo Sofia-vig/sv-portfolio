@@ -4,18 +4,17 @@
   justify-content: center;
   align-items: top;
   text-align: center;
-  padding: 40px 0;
-  margin: 0px 10px;
+  padding: 40px 10px;
   font-family: "Inconsolata";
 }
 
 .service__item {
-  padding: 0 50px;
+  padding: 0 30px;
 }
 
 @media (min-width: 1154px) {
   .service__item {
-    margin: 0 50px;
+    padding: 0 50px;
   }
 }
 

@@ -1,10 +1,17 @@
 .header-container {
-  background-image: url("../../img/fondo.png");
+  background-image: url("../../img/fondo.jpg");
+  background-size: 90vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 1287px) {
+  .header-container {
+    background: black;
+  }
 }
 
 .header__text-content {

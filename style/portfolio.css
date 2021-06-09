@@ -11,7 +11,8 @@ body {
     position: absolute;
   }
   .container-principal {
-    background-image: url("../img/unfondo.jpg");
+    background-image: url("../img/fondo-portfolio.jpg");
+    background-size: 100vw;
     height: 654px;
   }
 }
@@ -38,4 +39,19 @@ body {
   .service {
     margin: 0;
   }
+}
+
+@media (max-width: 900px) {
+  .container-principal__title {
+    display: none;
+  }
+}
+
+.container-principal__title {
+  font-family: "Inconsolata";
+  font-size: 48px;
+  font-weight: 700;
+  position: absolute;
+  margin: 35vh 4vw;
+  color: #fff;
 }
