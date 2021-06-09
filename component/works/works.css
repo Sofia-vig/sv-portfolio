@@ -1,0 +1,36 @@
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: top;
+  text-align: center;
+  padding: 40px 0;
+  margin: 0px 10px;
+  font-family: "Inconsolata";
+}
+
+@media (min-width: 1154px) {
+  .service__item {
+    margin: 0 80px;
+  }
+}
+
+.service__image {
+  width: 138px;
+}
+
+.service__foot-image {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 18px 0 15px 0;
+}
+
+.service__paragraph {
+  font-size: 16px;
+  margin: 0;
+}
+
+.service__link {
+  text-decoration: none;
+  color: #fff;
+}
