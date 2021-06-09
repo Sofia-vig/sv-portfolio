@@ -11,7 +11,7 @@ body {
     position: absolute;
   }
   .container-principal {
-    background-image: url("../img/fondo.jpg");
+    background-image: url("../img/unfondo.jpg");
     height: 654px;
   }
 }
