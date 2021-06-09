@@ -14,6 +14,7 @@ function components() {
 
 function main() {
   components();
+  burgerMobile();
 }
 
 main();

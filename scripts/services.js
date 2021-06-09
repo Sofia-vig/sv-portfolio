@@ -30,6 +30,7 @@ function getServices() {
 function main() {
   components();
   getServices();
+  burgerMobile();
 }
 
 main();

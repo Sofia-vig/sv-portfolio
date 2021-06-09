@@ -56,6 +56,7 @@ function main() {
   components();
   getMe();
   getServices();
+  burgerMobile();
 }
 
 main();

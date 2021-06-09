@@ -30,6 +30,7 @@ function getWorks() {
 function main() {
   components();
   getWorks();
+  burgerMobile();
 }
 
 main();
