@@ -1,0 +1,24 @@
+.header-container {
+  background-image: url("../../img/fondo.png");
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__text-content {
+  color: #fff;
+  text-align: center;
+  font-family: "Inconsolata";
+}
+
+.text-content__title {
+  margin: 0;
+  font-size: 48px;
+}
+
+.text-content__subtitle {
+  margin: 0;
+  font-size: 32px;
+}

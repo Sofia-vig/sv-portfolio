@@ -1,0 +1,13 @@
+@media (min-width: 900px) {
+  .container-principal {
+    height: 902px;
+  }
+  .prueba {
+    display: flex;
+    background-image: url("../img/fondo-contacto.jpg");
+  }
+
+  .form-container__div {
+    margin: 100px auto;
+  }
+}

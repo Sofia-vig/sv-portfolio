@@ -1,0 +1,42 @@
+/* Header */
+
+.nav {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+}
+
+.nav__logo {
+  width: 60px;
+}
+
+.nav__burger div {
+  width: 36px;
+  height: 7px;
+  background-color: #ffffff;
+  margin: 10px 0;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #ffffff;
+  padding-left: 20px;
+  font-family: "Inconsolata";
+  font-weight: 700;
+  font-size: 24px;
+}
+
+@media (min-width: 900px) {
+  .nav__burger {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .nav-bar {
+    display: none;
+  }
+}

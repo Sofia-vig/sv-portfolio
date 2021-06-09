@@ -1,0 +1,41 @@
+body {
+  background: #000;
+}
+
+.nav {
+  position: relative;
+}
+
+@media (min-width: 900px) {
+  .nav {
+    position: absolute;
+  }
+  .container-principal {
+    background-image: url("../img/fondo.jpg");
+    height: 654px;
+  }
+}
+
+.service-container__subtitle {
+  color: #fff;
+}
+
+@media (min-width: 900px) {
+  .service-container__subtitle {
+    display: none;
+  }
+}
+
+.service-container {
+  color: #fff;
+}
+
+@media (min-width: 1154px) {
+  .service-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .service {
+    margin: 0;
+  }
+}
