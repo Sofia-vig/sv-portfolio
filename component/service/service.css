@@ -9,14 +9,20 @@
   font-family: "Inconsolata";
 }
 
+.service__item {
+  padding: 0 50px;
+}
+
 @media (min-width: 1154px) {
   .service__item {
-    margin: 0 80px;
+    margin: 0 50px;
   }
 }
 
 .service__image {
   width: 138px;
+  height: 80px;
+  border-radius: 5px;
 }
 
 .service__foot-image {
@@ -28,4 +34,9 @@
 .service__paragraph {
   font-size: 16px;
   margin: 0;
+}
+
+.service__link {
+  text-decoration: none;
+  color: #fc6f50;
 }
