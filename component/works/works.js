@@ -12,7 +12,7 @@ function workComponent(sectionEl, info) {
         <p class="service__ paragraph">
          ${info.subtitle}
         </p>
-        <a href="${info.link}" class="service__link">GitHub</a>
+        <a href="${info.link}" class="service__link">Link Repo GitHub</a>
       </div>    
   `;
 
