@@ -15,6 +15,7 @@ function components() {
 function main() {
   components();
   burgerMobile();
+  sendData(document.querySelector(".form"));
 }
 
 main();

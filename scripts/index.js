@@ -57,6 +57,7 @@ function main() {
   getMe();
   getServices();
   burgerMobile();
+  sendData(document.querySelector(".form"));
 }
 
 main();
