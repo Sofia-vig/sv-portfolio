@@ -35,8 +35,8 @@ function sendData(elementForm) {
     var url = "https://apx-api.vercel.app/api/utils/dwf ";
 
     fetch(url, {
-      method: "POST", // or 'PUT'
-      body: JSON.stringify(newObjeto), // data can be `string` or {object}!
+      method: "POST",
+      body: JSON.stringify(newObjeto),
       headers: {
         "Content-Type": "application/json",
       },
