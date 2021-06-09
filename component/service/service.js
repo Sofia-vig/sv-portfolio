@@ -1,18 +1,16 @@
-function serviceComponent(sectionEl) {
+function serviceComponent(sectionEl, info) {
   const itemServiceElement = document.createElement("div");
   itemServiceElement.classList.add("service");
   itemServiceElement.innerHTML = `
     <div class="service__item">
       <img
-        src="img/note.png"
+        src="${info.imagen}"
         alt="camara-de-fotos"
         class="service__image"
       />
-      <h3 class="service__foot-image">Sesiones de fotos</h3>
+      <h3 class="service__foot-image">${info.title}</h3>
       <p class="service__ paragraph">
-        Acá vas a poder encontrar las fotografias que más disfrute
-        hacer.Podes encontrar fotografias de eventos (bodas,bautismos,
-        recibidas, exteriores) así como sesiones de fotos.
+       ${info.subtitle}
       </p>
     </div>    
 `;
