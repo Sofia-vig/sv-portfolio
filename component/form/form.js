@@ -31,7 +31,7 @@ function sendData(elementForm) {
     event.preventDefault();
     const formData = new FormData(event.target);
     const objeto = Object.fromEntries(formData.entries());
-    const newObjeto = { to: objeto.email, Message: objeto.message };
+    const newObjeto = { to: objeto.email, message: objeto.message };
     var url = "https://apx-api.vercel.app/api/utils/dwf ";
 
     fetch(url, {
