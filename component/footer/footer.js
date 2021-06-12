@@ -8,7 +8,7 @@ function footerComponent(sectionEl) {
 
   <ul class="list-social-footer">
     <li>
-      <a href="https://www.instagram.com/_ph.sv/" target="_blank"
+      <a href="https://www.instagram.com/sofi.vigna/" target="_blank"
         >Instagram</a
       >
       <img src="img/instagram.svg" alt="instagram" class="list-social-footer__icon" />
