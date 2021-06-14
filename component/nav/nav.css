@@ -38,9 +38,6 @@
   .nav__burger {
     display: none;
   }
-  .nav-bar {
-    display: block;
-  }
 }
 
 @media (max-width: 900px) {
@@ -49,19 +46,18 @@
   }
 }
 
-/* Nav Mobile */
-.nav-bar .close {
-  display: none;
-  width: 40px;
-  height: 40px;
-  background-color: rgb(90, 88, 88);
-  border: none;
-  color: white;
-  font-size: 40px;
+/* Nav mobile */
+.nav-bar-mobile a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Inconsolata";
   font-weight: 700;
+  font-size: 48px;
+  margin: 50px;
 }
-.nav-mobile {
-  display: flex;
+
+.nav-bar-mobile {
+  display: none;
   position: absolute;
   height: 100vh;
   width: 100%;
@@ -72,22 +68,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  animation-duration: 1s;
-  animation-name: showup;
 }
-
-@keyframes showup {
-  from {
-    margin-top: -200%;
-    width: 100%;
-  }
-
-  to {
-    margin-top: 0%;
-  }
-}
-
-.nav-mobile a {
-  margin: 50px;
-  font-size: 48px;
+.nav-bar-mobile__close {
+  background: #161616;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  border: none;
+  text-align: center;
+  padding: 9px 15px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
 }
