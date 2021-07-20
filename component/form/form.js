@@ -27,6 +27,16 @@ function formComponent(sectionEl) {
   sectionEl.appendChild(formElement);
 }
 
+function clean(formElement) {
+  const name = formElement.querySelector("#name");
+  const email = formElement.querySelector("#email");
+  const message = formElement.querySelector("#message");
+  console.log(name);
+  name.value = "";
+  email.value = "";
+  message.value = "";
+}
+
 function sendData(elementForm) {
   elementForm.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -51,6 +61,7 @@ function sendData(elementForm) {
         const send = elementForm.querySelector(".isSend");
         send.style.marginBottom = "20px";
         send.textContent = "Sent successfully";
+        clean(elementForm);
         console.log("Success:", response);
       });
   });
