@@ -19,6 +19,7 @@ function formComponent(sectionEl) {
       ></textarea>
     </div>
     <div class="form__input-container">
+      <p class="isSend"></p>
       <input type="submit" class="form__input form__input-button" value="Send" />
     </div>
   </form> `;
@@ -31,7 +32,10 @@ function sendData(elementForm) {
     event.preventDefault();
     const formData = new FormData(event.target);
     const objeto = Object.fromEntries(formData.entries());
-    const newObjeto = { to: "sofiavign@gmail.com", message: objeto.name + ": " + objeto.message };
+    const newObjeto = {
+      to: "sofiavign@gmail.com",
+      message: objeto.name + ": " + objeto.message,
+    };
     var url = "https://apx-api.vercel.app/api/utils/dwf ";
 
     fetch(url, {
@@ -43,6 +47,11 @@ function sendData(elementForm) {
     })
       .then((res) => res.json())
       .catch((error) => console.error("Error:", error))
-      .then((response) => console.log("Success:", response));
+      .then((response) => {
+        const send = elementForm.querySelector(".isSend");
+        send.style.marginBottom = "20px";
+        send.textContent = "Sent successfully";
+        console.log("Success:", response);
+      });
   });
 }
