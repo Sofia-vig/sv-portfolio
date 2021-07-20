@@ -3,7 +3,7 @@ function formComponent(sectionEl) {
   formElement.innerHTML = ` 
     <form class="form" method="POST">
     <div class="form__input-container">
-      <label for="name">NOMBRE</label>
+      <label for="name">NAME</label>
       <input type="text" name="name" id="name" class="form__input" />
     </div>
     <div class="form__input-container">
@@ -11,7 +11,7 @@ function formComponent(sectionEl) {
       <input type="email" name="email" id="email" class="form__input" />
     </div>
     <div class="form__input-container">
-      <label for="message">MENSAJE</label>
+      <label for="message">MESSAGE</label>
       <textarea
         name="message"
         id="message"
@@ -19,7 +19,7 @@ function formComponent(sectionEl) {
       ></textarea>
     </div>
     <div class="form__input-container">
-      <input type="submit" class="form__input form__input-button" />
+      <input type="submit" class="form__input form__input-button" value="Send" />
     </div>
   </form> `;
 

@@ -10,8 +10,8 @@ function navComponent(elementHtml) {
 </div>
 <nav class="nav-bar">
   <a href="portfolio.html">Portfolio</a>
-  <a href="servicios.html">Servicios</a>
-  <a href="contacto.html">Contacto</a>
+  <a href="servicios.html">Services</a>
+  <a href="contacto.html">Contact</a>
 </nav>
 <nav class="nav-bar-mobile">
   <button class="nav-bar-mobile__close">X</button>
